@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+}
+.left {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  height: 370px;
+  width: 270px;
+  border-radius: 30px;
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  box-shadow: 1px 1px 25px 0px hsl(221, 100%, 96%);
+  height: 370px;
+  width: 270px;
+  border-radius: 30px;
+}
+.resault {
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsl(221, 100%, 92%);
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  left: center;
+  font-weight: 600;
+}
+.circle {
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  align-self: center;
+  position: absolute;
+  top: 80px;
+}
+.great {
+  position: absolute;
+  bottom: 25%;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsl(0, 0%, 98%);
+  font-weight: 600;
+  font-size: 25px;
+}
+.text {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  color: hsl(0, 0%, 75%);
+  font-family: "Hanken Grotesk", sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
+}
+.n76 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+}
+.n100 {
+  color: hsl(220, 26%, 70%);
+  font-family: "Hanken Grotesk", sans-serif;
+  position: absolute;
+  bottom: 25%;
+  left: 35%;
+  font-size: 14px;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 5;
+  justify-content: flex-start;
+  position: relative;
+  padding: 10px 20px 10px 25px;
+}
+
+.right div:nth-child(1) {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 3px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 19px;
+  width: 80%;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.right div div:nth-child(1) {
+  width: 225px;
+  height: 45px;
+  /* margin-bottom: 20px; */
+  background-color: rgb(255, 87, 87, 0.1);
+  color: hsl(0, 100%, 67%);
+  margin: 10px 0 5px 0;
+  padding: 3px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 15px;
+  border-radius: 10px 10px;
+  font-weight: bold;
+}
+
+.right div div:nth-child(2) {
+  width: 225px;
+  height: 45px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 176, 31, 0.1);
+
+  color: hsl(39, 100%, 56%);
+  margin: 10px 0 5px 0;
+  padding: 3px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 15px;
+  border-radius: 10px 10px;
+  font-weight: bold;
+}
+
+.right div div:nth-child(3) {
+  width: 225px;
+  height: 45px;
+  margin-bottom: 20px;
+  background-color: rgb(0, 189, 145, 0.1);
+  color: hsl(166, 100%, 37%);
+  margin: 10px 0 5px 0;
+  padding: 3px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 15px;
+  border-radius: 10px 10px;
+  font-weight: bold;
+}
+
+.right div div:nth-child(4) {
+  width: 225px;
+  height: 45px;
+  margin-bottom: 20px;
+  background-color: rgb(17, 37, 212, 0.1);
+  border-radius: 10px 10px;
+  color: hsl(234, 85%, 45%);
+  margin: 10px 0 5px 0;
+  padding: 3px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.right div img {
+  margin: 0 4px 0 5px;
+  padding-top: 2px;
+  position: relative;
+  top: 5px;
+}
+#r1 {
+  position: relative;
+  left: 60px;
+  color: hsl(224, 30%, 27%);
+}
+#r2 {
+  position: relative;
+  left: 67px;
+  color: hsl(224, 30%, 27%);
+}
+#r3 {
+  position: relative;
+  left: 75px;
+  color: hsl(224, 30%, 27%);
+}
+#r4 {
+  position: relative;
+  left: 78px;
+  color: hsl(224, 30%, 27%);
+}
+#r5,
+#r6,
+#r7,
+#r8 {
+  color: grey;
+  opacity: 0.85;
+}
+
+button {
+  border: none;
+  width: 210px;
+  height: 40px;
+  border-radius: 40px;
+  outline: none;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+}
